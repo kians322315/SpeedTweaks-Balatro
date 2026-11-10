@@ -125,7 +125,7 @@ local SLICE_SECONDS     = 0.12   -- Amulet slice length
 
 
 It is very much an WIP, still some optimisations to be made.
-For bugs/issues just contact me and I will try to get it sorted. No guarantees though.
+For bugs/problems, open an issue and I will try to get it sorted. No guarantees though.
 
 
 
