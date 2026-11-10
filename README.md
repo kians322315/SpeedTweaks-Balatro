@@ -1,7 +1,7 @@
 # SpeedTweaks (WIP)
 
 A little Balatro mod I made with AI that makes very long scoring calculations finish much faster **without
-changing the final score**. (Well atleast it shouldn't)
+changing the final score**. (Well, atleast it shouldn't)
 
 It skips scoring work the engine performs but which cannot possibly produce an
 effect on the game. The score, the jokers, the RNG and the game state are identical — only
