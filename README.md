@@ -62,6 +62,7 @@ SpeedTweaks returns that `nil` immediately.
 Requires [Steamodded](https://github.com/Steamodded/smods). Lovely injector
 required as usual.
 
+Download the source code.
 Copy the `SpeedTweaks` folder to your mods directory:
 
 | Platform | Path |
