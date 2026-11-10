@@ -57,6 +57,8 @@ SpeedTweaks returns that `nil` immediately.
    interval is raised from `0.03 s` to `0.12 s`. With animations disabled the
    extra frame trips are pure loss.
 
+**I can only do so much testing on my system, your results may differ.**
+
 ## Install
 
 Requires [Steamodded](https://github.com/Steamodded/smods). Lovely injector
