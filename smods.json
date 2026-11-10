@@ -1,0 +1,11 @@
+{
+  "id": "SpeedTweaks",
+  "name": "SpeedTweaks",
+  "author": ["kians322315"],
+  "description": "Score-neutral scoring-time optimisations. Skips scoring calls that provably cannot produce an effect (inert consumables, vouchers and jokers) and reduces calculation-slice overhead. No gameplay change.",
+  "prefix": "spdtwk",
+  "main_file": "main.lua",
+  "priority": 1000000002,
+  "version": "1.0.0",
+  "dependencies": ["Steamodded (>=1.0.0~BETA-0827c)"]
+}
