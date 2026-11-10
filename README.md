@@ -1,4 +1,5 @@
 # SpeedTweaks (WIP)
+<img width="256" height="256" alt="icon" src="https://github.com/user-attachments/assets/00a09e19-264b-4658-b1ab-9fe7732de930" />
 
 A little Balatro mod I made with AI that makes very long scoring calculations finish much faster **without
 changing the final score**. (Well, atleast it shouldn't)
