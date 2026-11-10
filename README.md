@@ -61,17 +61,24 @@ SpeedTweaks returns that `nil` immediately.
 
 ## Install
 
-Requires [Steamodded](https://github.com/Steamodded/smods). Lovely injector
-required as usual.
+Requires [Steamodded](https://github.com/Steamodded/smods). Lovely injector required as usual.
 
-Download the source code.
-Copy the `SpeedTweaks` folder to your mods directory:
+1. Click **Code → Download ZIP** (or use a [release](../../releases) if one exists).
+2. Extract it. You get one folder containing `main.lua` and `smods.json`.
+3. Rename that folder to `SpeedTweaks` — optional, but it keeps things tidy.
+   Steamodded reads `smods.json`, so the folder name itself doesn't matter.
+4. Move it into your Mods folder:
 
 | Platform | Path |
-|---|---|
+| --- | --- |
 | Windows | `%APPDATA%\Balatro\Mods\SpeedTweaks\` |
 | Linux/Proton | `.../compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods/SpeedTweaks/` |
 | macOS | `~/Library/Application Support/Balatro/Mods/SpeedTweaks/` |
+
+When you're done, this must exist:
+
+Mods/SpeedTweaks/main.lua
+Mods/SpeedTweaks/smods.json
 
 Mods live in the **save** directory, not the game install directory.
 
