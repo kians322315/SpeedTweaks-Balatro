@@ -8,6 +8,20 @@
 -- Every call skipped here is one the engine provably resolves to "no effect".
 -- Nothing changes scoring, jokers, odds, RNG, or game state.
 
+-------------------------------------------------------------------------------
+-- Duplicate-install guard
+--
+-- Balatro loads every folder in Mods that has a smods.json, so extracting the
+-- zip twice yields two copies of this mod and this file runs twice. The id is
+-- not de-duplicated anywhere by the framework, so the wrapper would be
+-- installed on top of itself. Bail out on the second copy instead.
+-------------------------------------------------------------------------------
+if _G.__SPEEDTWEAKS_LOADED then
+    print('[SpeedTweaks] duplicate folder detected - already loaded, ignoring this copy')
+    return
+end
+_G.__SPEEDTWEAKS_LOADED = true
+
 local SLICE_SECONDS     = 0.12   -- Amulet yield slice (default 0.03)
 local YIELD_CHECK_EVERY = 1000   -- Amulet yield granularity (default 250)
 local ENABLE_INERT_SKIP = true   -- skip inert Card:calculate_joker
