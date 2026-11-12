@@ -64,7 +64,7 @@ SpeedTweaks returns that `nil` immediately.
 
 Requires [Steamodded](https://github.com/Steamodded/smods). Lovely injector required as usual.
 
-1. Click **Code → Download ZIP** (or use a [release](../../releases) if one exists).
+1. Go to **Releases** and download the latest version.
 2. Extract it. You get one folder containing `main.lua` and `smods.json`.
 3. Rename that folder to `SpeedTweaks`. It is optional, but it makes things simpler.
    Steamodded reads `smods.json`, so the folder name itself doesn't matter.
